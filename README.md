@@ -1,19 +1,3 @@
-# portfolio
+My personal portfolio, where i keep all my best projects (:
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+see live at https://nadav-samuel-portfolio.herokuapp.com/#/
