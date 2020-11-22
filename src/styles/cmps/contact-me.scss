@@ -1,0 +1,51 @@
+.contact-container {
+    border-radius: 6px;
+    padding: 30px;
+    min-height: 250px;
+    width: 80%;
+    background-color: $clr4;
+    position: absolute;
+    top: -60%;
+    .profile-img {
+        border-radius: 50%;
+        width: 270px;
+        object-fit: cover;
+    }
+    .contact-details {
+        justify-content: start;
+        text-align: start;
+        padding-inline-start: 20px;
+        .social-btns-container {
+            margin-top: 30px;
+            >* {
+                margin-inline-start: 25px;
+            }
+            :first-child{
+                margin: 0;
+            }
+            img  {
+                width: 40px;
+
+            }
+        }
+        .personal-details {
+            margin-top: 20px;
+        }
+    }
+}
+@media (max-width: 750px) {
+    .contact-container {
+        flex-direction: column;
+        align-items: center;
+        top: -40%;
+        .profile-img {
+            width: 70%;
+            margin-bottom: 30px;
+        }
+    }
+}
+@media (max-width: 410px) {
+    .contact-container {
+        top: -60%;
+    }
+}

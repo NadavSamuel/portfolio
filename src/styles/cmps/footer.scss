@@ -1,0 +1,24 @@
+footer{
+    color: $clr1;
+    // min-height: 20vh;
+    background-color: $clr2;
+    .footer-container{
+        margin:$nav-footer-margin;
+        img{
+            width: 75px;
+        }
+    }
+}
+@media (max-width: 750px) {
+footer{
+    .footer-container{
+        height: 50vh;
+        justify-content: center;
+        font-size: 1.5rem;
+        flex-direction: column-reverse;
+        img{
+            width: 150px;
+        }
+    }
+}
+}

@@ -1,0 +1,93 @@
+nav {
+    // background-color: blue;
+
+    // position: fixed;
+    width: 100%;
+    // z-index: 1;
+    height: 15vh;
+    img {
+        width: 75px;
+    }
+    .navbar-container {
+        margin: $nav-footer-margin;
+        height: 100px;
+    }
+    .main-nav-container {
+        margin-inline-end: 25px;
+    }
+    .phone-view {
+        display: none;
+    }
+    .logo {
+        width: 40px;
+        object-fit: cover;
+    }
+
+    ul {
+        display: inline-flex;
+        a {
+            border-radius: 15px;
+            color: black;
+            margin: 5px;
+            height: 70px;
+            width: 70px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            &:hover {
+                background: $clr2;
+                color: $clr1;
+                transition: 0.3s;
+            }
+        }
+    }
+
+    .mobile-links > * {
+        border-radius: 0;
+    }
+
+    @media (max-width: 750px) {
+        .phone-view {
+            display: inline-block;
+            margin-right: 10px;
+            font-size: rem(40px);
+            cursor: pointer;
+            color: $clr3;
+            &:hover {
+                color: $clr2;
+                transition: 0.3s;
+            }
+        }
+
+        .main-nav-container {
+            a {
+                margin-top: 10px;
+                margin: 0 auto;
+                width: 70px;
+                height: 50px;
+                color: $clr1;
+                border-radius: 0;
+                &:hover {
+                    background: inherit;
+                }
+            }
+            display: flex;
+            width: 150px;
+            flex-direction: column;
+            position: fixed;
+            right: 0;
+            top: 0;
+            height: 100%;
+            background-color: $clr3;
+            z-index: 3;
+            transition: 0.3s;
+            margin-inline-end: 0;
+            padding: 20px 0 0 0;
+            transition: transform 0.8s, box-shadow 0.8s;
+            &.hide {
+                transform: translateX(100%);
+            }
+        }
+    }
+}

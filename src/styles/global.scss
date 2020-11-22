@@ -1,0 +1,32 @@
+// Setup
+@import "setup/_variables.scss";
+@import "setup/_functions.scss";
+@import "setup/_mixins.scss";
+@import "setup/typography";
+
+// Basics
+@import "basics/_helpers.scss";
+@import "basics/_layout.scss";
+@import "basics/_base.scss";
+@import "basics/_links.scss";
+@import "basics/_buttons.scss";
+
+
+@import 'cmps/black-screen.scss';
+@import 'cmps/notification.scss';
+@import 'cmps/navbar.scss';
+@import 'cmps/hero.scss';
+@import 'cmps/statment.scss';
+@import 'cmps/features.scss';
+@import 'cmps/projects.scss';
+@import 'cmps/project-description-modal.scss';
+@import 'cmps/contact-wraper.scss';
+@import 'cmps/contact-me.scss';
+@import 'cmps/footer.scss';
+
+
+
+//VIEWS
+// @import 'cmps/main-app.scss';
+// @import 'cmps/about.scss';
+

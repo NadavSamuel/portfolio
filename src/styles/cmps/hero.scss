@@ -1,0 +1,29 @@
+.hero-container {
+    margin-top: 50px;
+    .greet-container {
+        // margin-top: 75px;
+        > *:not(:last-child) {
+            margin-bottom: 50px;
+        }
+        padding: 0.75rem;
+        text-align: center;
+        font-size: rem(23px);
+        width: 100%;
+        h2 {
+            font-family: roboto-thin;
+            font-size: 1.7rem;
+        }
+    }
+    .avatar-container {
+        margin-top: 50px;
+        img {
+            width: 65%;
+            background-color: $clr2;
+            border-radius: 50%;
+        }
+    }
+    .computer-img-container{
+        margin-top: 90px;
+
+    }
+}
